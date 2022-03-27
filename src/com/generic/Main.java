@@ -3,12 +3,13 @@ package com.generic;
 public class Main<T> {
     T Array[];
 
+
     Main(T[] Array) {
         this.Array = Array;
     }
-    public static void main(String[] args) {
-        System.out.println("Welcome to Generic Problem");
 
+
+    public static void main(String[] args) {
         Integer intArray[] = {1, 2, 3};
         Main printarray = new Main(intArray);
         Main.toPrint(printarray.Array);
@@ -27,4 +28,3 @@ public class Main<T> {
         }
     }
 }
-
