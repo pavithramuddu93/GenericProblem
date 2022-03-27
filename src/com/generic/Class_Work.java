@@ -34,4 +34,3 @@ public class Class_Work<T extends Comparable<T>> {
         new Class_Work<>(str1, str2, str3).maximum();
     }
 }
-
