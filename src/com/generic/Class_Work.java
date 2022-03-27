@@ -4,8 +4,8 @@ public class Class_Work<T extends Comparable<T>> {
     T x;
     T y;
     T z;
-    public Class_Work(T x, T y, T z) {
 
+    public Class_Work(T x, T y, T z) {
         this.x = x;
         this.y = y;
         this.z = z;
@@ -34,8 +34,4 @@ public class Class_Work<T extends Comparable<T>> {
         new Class_Work<>(str1, str2, str3).maximum();
     }
 }
-
-
-
-
 
