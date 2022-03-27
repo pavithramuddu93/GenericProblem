@@ -2,17 +2,16 @@ package com.generic;
 
 public class UseCase {
     public static void main(String[] args) {
+        String xs = "Pear", ys = "Apple", zs = "Orange";
 
-        Float xf = 9.7f, yf=17.66f, zf = 5.5f;
-
-        float max = xf;
-        if (yf.compareTo(max) > 0) {
-            max = yf;
+        if ((ys.compareTo(xs) > 0) && (ys.compareTo(zs) > 0)) {
+            System.out.println(ys + " is max String");
         }
-        if (zf.compareTo(max) > 0) {
-            max = zf;
+        if ((zs.compareTo(xs) > 0) && (zs.compareTo(ys) > 0)) {
+            System.out.println(zs + " is max String");
         }
-        System.out.println(max + " is max number");
-
+        if ((xs.compareTo(ys) > 0) && (xs.compareTo(zs) > 0)) {
+            System.out.println(xs + " is max String");
+        }
     }
 }
